@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="revision2.php" method="post">
+        <h1>Formulaire de Recherche d'un employé : <br> </h1> 
+       Nom Employé : <input type="text" name="nomEmp">
+        <button type="submit" name="S1">Rechercher</button>
+    </form>
+<br> <br>
+    <form action="revision2.php" method="post">
+        <h1>Formulaire de connexion : <br></h1> 
+        E-mail :<input type="email" name="email">
+        Mot de passe :<input type="password" name="mdp">
+        <button type="submit" name="S2">Se connecter</button>
+
+    </form>
+
+    <br> <br>
+    <form action="revision2.php" method="post">
+        <h1>Formulaire des produits :<br></h1> 
+        <h4>Sélectionner vos produits :</h4>
+        Pomme (2.5 €): <input type="number" name="quantite[Pomme]" min="0" value="0"><br>
+        Banane (1.2 €): <input type="number" name="quantite[Banane]" min="0" value="0"><br>
+        Orange (3.0 €): <input type="number" name="quantite[Orange]" min="0" value="0">><br>
+        Mangue (5.0 €): <input type="number" name="quantite[Mangue]" min="0" value="0"><br>
+        Ananas (4.5 €): <input type="number" name="quantite[Ananas]" min="0" value="0"><br>
+        
+        <button type="submit">Ajouter au Panier</button>
+
+    </form>
+</body>
+</html>
